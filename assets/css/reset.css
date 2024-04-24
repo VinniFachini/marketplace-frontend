@@ -3,6 +3,17 @@
    License: none (public domain)
 */
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nuxt-icon svg {
+    height: inherit !important;
+    width: inherit !important;
+}
+
 html,
 body,
 div,

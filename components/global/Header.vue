@@ -10,7 +10,10 @@
             <div class="search-section">
                 <Search />
             </div>
-            <div class="user-section">c</div>
+            <div class="user-section">
+                <Button label="Contato" variant="secondary"/>
+                <Cart />
+            </div>
         </div>
     </div>
     <div class="second-bar">
@@ -49,6 +52,11 @@ export default {
             align-items: center;
             justify-content: flex-start;
             width: 100%;
+        }
+        .user-section {
+            display: flex;
+            align-items: center;
+            justify-content: end;
         }
     }
     .second-bar {
